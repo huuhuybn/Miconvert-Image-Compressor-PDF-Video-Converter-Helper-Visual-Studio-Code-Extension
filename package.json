@@ -1,0 +1,185 @@
+{
+  "name": "miconvert-image-optimizer",
+  "displayName": "Miconvert: Image Compressor, PDF & Video Converter Helper",
+  "description": "Compress PNG, JPG, WebP images instantly inside VS Code. Convert images to WebP. Quick access to PDF to Word, MP4 to MP3 conversions at miconvert.com. Free, offline, powered by Sharp.",
+  "version": "0.0.3",
+  "publisher": "miconvert",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "keywords": [
+    "image",
+    "compress",
+    "compressor",
+    "optimize",
+    "minify",
+    "png",
+    "jpg",
+    "jpeg",
+    "webp",
+    "sharp",
+    "pdf",
+    "video",
+    "converter",
+    "file size",
+    "performance",
+    "web optimization",
+    "miconvert"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huuhuybn/Miconvert-Image-Compressor-PDF-Video-Converter-Helper-Visual-Studio-Code-Extension"
+  },
+  "homepage": "https://miconvert.com",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "miconvert.compressFile",
+        "title": "%command.compressFile%"
+      },
+      {
+        "command": "miconvert.compressFolder",
+        "title": "%command.compressFolder%"
+      },
+      {
+        "command": "miconvert.convertVideoOnline",
+        "title": "%command.convertVideoOnline%"
+      },
+      {
+        "command": "miconvert.openPdfTool",
+        "title": "%command.openPdfTool%"
+      },
+      {
+        "command": "miconvert.openFontTool",
+        "title": "%command.openFontTool%"
+      },
+      {
+        "command": "miconvert.openAudioTool",
+        "title": "%command.openAudioTool%"
+      },
+      {
+        "command": "miconvert.openOfficeTool",
+        "title": "%command.openOfficeTool%"
+      },
+      {
+        "command": "miconvert.openSvgTool",
+        "title": "%command.openSvgTool%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "miconvert.compressFile",
+          "when": "resourceExtname =~ /\\.(png|jpg|jpeg|webp)$/i",
+          "group": "miconvert@1"
+        },
+        {
+          "command": "miconvert.compressFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "miconvert@2"
+        },
+        {
+          "command": "miconvert.convertVideoOnline",
+          "when": "resourceExtname =~ /\\.(mp4|avi|mov|mkv|wmv|flv|webm|3gp)$/i",
+          "group": "miconvert@3"
+        },
+        {
+          "command": "miconvert.openPdfTool",
+          "when": "resourceExtname =~ /\\.pdf$/i",
+          "group": "miconvert@4"
+        },
+        {
+          "command": "miconvert.openFontTool",
+          "when": "resourceExtname =~ /\\.(ttf|otf|woff|woff2|eot)$/i",
+          "group": "miconvert@5"
+        },
+        {
+          "command": "miconvert.openAudioTool",
+          "when": "resourceExtname =~ /\\.(mp3|wav|ogg|flac|aac|m4a)$/i",
+          "group": "miconvert@6"
+        },
+        {
+          "command": "miconvert.openOfficeTool",
+          "when": "resourceExtname =~ /\\.(docx|doc|xlsx|xls|pptx|ppt|odt|ods|odp|rtf|csv)$/i",
+          "group": "miconvert@7"
+        },
+        {
+          "command": "miconvert.openSvgTool",
+          "when": "resourceExtname =~ /\\.svg$/i",
+          "group": "miconvert@8"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "%config.title%",
+      "properties": {
+        "miconvert.quality": {
+          "type": "number",
+          "default": 80,
+          "minimum": 1,
+          "maximum": 100,
+          "description": "%config.quality.description%"
+        },
+        "miconvert.overwrite": {
+          "type": "boolean",
+          "default": false,
+          "description": "%config.overwrite.description%"
+        },
+        "miconvert.targetFormat": {
+          "type": "string",
+          "default": "original",
+          "enum": [
+            "original",
+            "webp",
+            "jpeg"
+          ],
+          "enumDescriptions": [
+            "%config.targetFormat.original%",
+            "%config.targetFormat.webp%",
+            "%config.targetFormat.jpeg%"
+          ],
+          "description": "%config.targetFormat.description%"
+        },
+        "miconvert.threshold": {
+          "type": "number",
+          "default": 0,
+          "minimum": 0,
+          "description": "%config.threshold.description%"
+        },
+        "miconvert.verbose": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.verbose.description%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "node esbuild.js --production",
+    "watch": "node esbuild.js --watch",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}

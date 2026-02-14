@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "Mit Miconvert komprimieren",
+    "command.compressFolder": "Miconvert: Alle Bilder im Ordner komprimieren",
+    "command.convertVideoOnline": "🚀 Miconvert: Video konvertieren (Online)",
+    "command.openPdfTool": "🚀 Miconvert: PDF konvertieren (Online)",
+    "command.openFontTool": "🚀 Miconvert: Schriftart konvertieren (Online)",
+    "command.openAudioTool": "🚀 Miconvert: Audio konvertieren (Online)",
+    "command.openOfficeTool": "🚀 Miconvert: Dokument konvertieren (Online)",
+    "command.openSvgTool": "🚀 Miconvert: SVG in PNG konvertieren (Online)",
+    "config.title": "Miconvert",
+    "config.quality.description": "Komprimierungsqualität (1-100). Niedrigere Werte = kleinere Dateien.",
+    "config.overwrite.description": "true: Originaldatei überschreiben. false: Neue Datei mit Suffix '_min' erstellen (z.B. image_min.png).",
+    "config.targetFormat.description": "Ausgabeformat für komprimierte Bilder.",
+    "config.targetFormat.original": "Originalformat beibehalten",
+    "config.targetFormat.webp": "In WebP konvertieren (beste Komprimierung)",
+    "config.targetFormat.jpeg": "In JPEG konvertieren",
+    "config.threshold.description": "Nur Dateien komprimieren, die größer als diese Größe sind (in KB). Auf 0 setzen, um alle zu komprimieren.",
+    "config.verbose.description": "Benachrichtigungen mit Komprimierungsergebnissen anzeigen."
+}

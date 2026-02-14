@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "使用 Miconvert 压缩",
+    "command.compressFolder": "Miconvert: 压缩文件夹中的所有图片",
+    "command.convertVideoOnline": "🚀 Miconvert: 在线转换视频",
+    "command.openPdfTool": "🚀 Miconvert: 在线转换 PDF",
+    "command.openFontTool": "🚀 Miconvert: 在线转换字体",
+    "command.openAudioTool": "🚀 Miconvert: 在线转换音频",
+    "command.openOfficeTool": "🚀 Miconvert: 在线转换文档",
+    "command.openSvgTool": "🚀 Miconvert: 将 SVG 转换为 PNG",
+    "config.title": "Miconvert",
+    "config.quality.description": "压缩质量 (1-100)。值越低，文件越小。",
+    "config.overwrite.description": "true：覆盖原始文件。false：创建带 '_min' 后缀的新文件（例如 image_min.png）。",
+    "config.targetFormat.description": "压缩图片的输出格式。",
+    "config.targetFormat.original": "保持原始格式",
+    "config.targetFormat.webp": "转换为 WebP（最佳压缩）",
+    "config.targetFormat.jpeg": "转换为 JPEG",
+    "config.threshold.description": "仅压缩大于此大小的文件（以 KB 为单位）。设置为 0 压缩所有文件。",
+    "config.verbose.description": "显示压缩结果的通知。"
+}

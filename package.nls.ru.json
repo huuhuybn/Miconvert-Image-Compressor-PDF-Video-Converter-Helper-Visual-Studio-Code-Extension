@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "Сжать с Miconvert",
+    "command.compressFolder": "Miconvert: Сжать все изображения в папке",
+    "command.convertVideoOnline": "🚀 Miconvert: Конвертировать видео (Онлайн)",
+    "command.openPdfTool": "🚀 Miconvert: Конвертировать PDF (Онлайн)",
+    "command.openFontTool": "🚀 Miconvert: Конвертировать шрифт (Онлайн)",
+    "command.openAudioTool": "🚀 Miconvert: Конвертировать аудио (Онлайн)",
+    "command.openOfficeTool": "🚀 Miconvert: Конвертировать документ (Онлайн)",
+    "command.openSvgTool": "🚀 Miconvert: Конвертировать SVG в PNG (Онлайн)",
+    "config.title": "Miconvert",
+    "config.quality.description": "Качество сжатия (1-100). Чем ниже значение, тем меньше файл.",
+    "config.overwrite.description": "true: Перезаписать исходный файл. false: Создать новый файл с суффиксом '_min' (например: image_min.png).",
+    "config.targetFormat.description": "Формат вывода для сжатых изображений.",
+    "config.targetFormat.original": "Сохранить исходный формат",
+    "config.targetFormat.webp": "Конвертировать в WebP (лучшее сжатие)",
+    "config.targetFormat.jpeg": "Конвертировать в JPEG",
+    "config.threshold.description": "Сжимать только файлы, размер которых превышает указанный (в КБ). Установите 0, чтобы сжимать все файлы.",
+    "config.verbose.description": "Показывать уведомления с результатами сжатия."
+}

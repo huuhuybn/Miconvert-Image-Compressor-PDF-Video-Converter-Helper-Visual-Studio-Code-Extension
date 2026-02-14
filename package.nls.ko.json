@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "Miconvert로 압축",
+    "command.compressFolder": "Miconvert: 폴더의 모든 이미지 압축",
+    "command.convertVideoOnline": "🚀 Miconvert: 동영상 변환 (온라인)",
+    "command.openPdfTool": "🚀 Miconvert: PDF 변환 (온라인)",
+    "command.openFontTool": "🚀 Miconvert: 글꼴 변환 (온라인)",
+    "command.openAudioTool": "🚀 Miconvert: 오디오 변환 (온라인)",
+    "command.openOfficeTool": "🚀 Miconvert: 문서 변환 (온라인)",
+    "command.openSvgTool": "🚀 Miconvert: SVG를 PNG로 변환 (온라인)",
+    "config.title": "Miconvert",
+    "config.quality.description": "압축 품질 (1-100). 낮은 값 = 작은 파일.",
+    "config.overwrite.description": "true: 원본 파일 덮어쓰기. false: '_min' 접미사가 붙은 새 파일 생성 (예: image_min.png).",
+    "config.targetFormat.description": "압축된 이미지의 출력 형식.",
+    "config.targetFormat.original": "원래 형식 유지",
+    "config.targetFormat.webp": "WebP로 변환 (최고 압축률)",
+    "config.targetFormat.jpeg": "JPEG로 변환",
+    "config.threshold.description": "이 크기(KB)보다 큰 파일만 압축합니다. 0으로 설정하면 모든 파일을 압축합니다.",
+    "config.verbose.description": "압축 결과 알림을 표시합니다."
+}

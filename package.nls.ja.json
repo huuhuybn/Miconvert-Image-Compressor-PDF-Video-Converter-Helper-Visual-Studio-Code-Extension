@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "Miconvert で圧縮",
+    "command.compressFolder": "Miconvert: フォルダ内のすべての画像を圧縮",
+    "command.convertVideoOnline": "🚀 Miconvert: 動画を変換（オンライン）",
+    "command.openPdfTool": "🚀 Miconvert: PDFを変換（オンライン）",
+    "command.openFontTool": "🚀 Miconvert: フォントを変換（オンライン）",
+    "command.openAudioTool": "🚀 Miconvert: 音声を変換（オンライン）",
+    "command.openOfficeTool": "🚀 Miconvert: ドキュメントを変換（オンライン）",
+    "command.openSvgTool": "🚀 Miconvert: SVGをPNGに変換（オンライン）",
+    "config.title": "Miconvert",
+    "config.quality.description": "圧縮品質 (1-100)。値が低いほどファイルサイズが小さくなります。",
+    "config.overwrite.description": "true：元のファイルを上書き。false：'_min' サフィックス付きの新しいファイルを作成（例: image_min.png）。",
+    "config.targetFormat.description": "圧縮画像の出力形式。",
+    "config.targetFormat.original": "元の形式を維持",
+    "config.targetFormat.webp": "WebP に変換（最高の圧縮率）",
+    "config.targetFormat.jpeg": "JPEG に変換",
+    "config.threshold.description": "このサイズ（KB単位）より大きいファイルのみ圧縮します。0 に設定するとすべてのファイルを圧縮します。",
+    "config.verbose.description": "圧縮結果の通知を表示します。"
+}

@@ -1,0 +1,19 @@
+{
+    "command.compressFile": "Nén ảnh với Miconvert",
+    "command.compressFolder": "Miconvert: Nén tất cả ảnh trong thư mục",
+    "command.convertVideoOnline": "🚀 Miconvert: Chuyển đổi Video (Trực tuyến)",
+    "command.openPdfTool": "🚀 Miconvert: Chuyển đổi PDF (Trực tuyến)",
+    "command.openFontTool": "🚀 Miconvert: Chuyển đổi Font (Trực tuyến)",
+    "command.openAudioTool": "🚀 Miconvert: Chuyển đổi Audio (Trực tuyến)",
+    "command.openOfficeTool": "🚀 Miconvert: Chuyển đổi Tài liệu (Trực tuyến)",
+    "command.openSvgTool": "🚀 Miconvert: Chuyển SVG sang PNG (Trực tuyến)",
+    "config.title": "Miconvert",
+    "config.quality.description": "Chất lượng nén (1-100). Giá trị thấp hơn = file nhỏ hơn.",
+    "config.overwrite.description": "true: Ghi đè file gốc. false: Tạo file mới với hậu tố '_min' (vd: image_min.png).",
+    "config.targetFormat.description": "Định dạng đầu ra cho ảnh nén.",
+    "config.targetFormat.original": "Giữ nguyên định dạng gốc",
+    "config.targetFormat.webp": "Chuyển sang WebP (nén tốt nhất)",
+    "config.targetFormat.jpeg": "Chuyển sang JPEG",
+    "config.threshold.description": "Chỉ nén file lớn hơn kích thước này (tính bằng KB). Đặt 0 để nén tất cả.",
+    "config.verbose.description": "Hiển thị thông báo kết quả nén."
+}

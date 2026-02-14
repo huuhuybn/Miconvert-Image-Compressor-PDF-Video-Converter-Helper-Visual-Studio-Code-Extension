@@ -1,0 +1,12 @@
+.vscode/**
+.vscode-test/**
+src/**
+!dist/**
+node_modules/**
+!node_modules/sharp/**
+!node_modules/@img/**
+.gitignore
+tsconfig.json
+esbuild.js
+**/*.ts
+**/*.map
