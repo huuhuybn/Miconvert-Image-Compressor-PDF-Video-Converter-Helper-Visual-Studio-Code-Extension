@@ -2,7 +2,7 @@
   "name": "miconvert-image-optimizer",
   "displayName": "Miconvert: Image Compressor, PDF & Video Converter Helper",
   "description": "Compress PNG, JPG, WebP images instantly inside VS Code. Convert images to WebP. Quick access to PDF to Word, MP4 to MP3 conversions at miconvert.com. Free, offline, powered by Sharp.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "miconvert",
   "engines": {
     "vscode": "^1.85.0"
