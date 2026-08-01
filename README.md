@@ -114,4 +114,4 @@ Absolutely. Folder compression automatically skips `node_modules`, `.git`, and h
 
 ## 📜 License
 
-MIT © [Miconvert](https://miconvert.com) — Free Online File Converter
+MIT © [Miconvert](https://miconvert.com?utm_source=vscode&utm_medium=readme&utm_campaign=vscode-image-optimizer) — Free Online File Converter

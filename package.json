@@ -35,7 +35,7 @@
     "type": "git",
     "url": "https://github.com/huuhuybn/Miconvert-Image-Compressor-PDF-Video-Converter-Helper-Visual-Studio-Code-Extension"
   },
-  "homepage": "https://miconvert.com",
+  "homepage": "https://miconvert.com?utm_source=vscode&utm_medium=listing&utm_campaign=vscode-image-optimizer",
   "activationEvents": [
     "onStartupFinished"
   ],

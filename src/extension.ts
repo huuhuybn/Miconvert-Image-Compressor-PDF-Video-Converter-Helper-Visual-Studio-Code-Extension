@@ -277,12 +277,12 @@ export function activate(context: vscode.ExtensionContext) {
             });
             if (!pick) { return; }
             const urlMap: Record<string, string> = {
-                "$(play) Convert Video Format": "https://miconvert.com/en/video-converters",
-                "$(unmute) Extract Audio (MP3)": "https://miconvert.com/en/mp4-to-mp3",
-                "$(file-media) Convert to GIF": "https://miconvert.com/en/mp4-to-gif",
-                "$(fold-down) Compress Video": "https://miconvert.com/en/compress-mp4",
+                "$(play) Convert Video Format": "https://miconvert.com/en/video-converters?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(unmute) Extract Audio (MP3)": "https://miconvert.com/en/mp4-to-mp3?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(file-media) Convert to GIF": "https://miconvert.com/en/mp4-to-gif?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(fold-down) Compress Video": "https://miconvert.com/en/compress-mp4?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
             };
-            const url = urlMap[pick.label] || "https://miconvert.com/en/video-converters";
+            const url = urlMap[pick.label] || "https://miconvert.com/en/video-converters?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer";
             vscode.env.openExternal(
                 vscode.Uri.parse(`${url}?utm_source=vscode&utm_medium=context_menu`)
             );
@@ -307,13 +307,13 @@ export function activate(context: vscode.ExtensionContext) {
             });
             if (!pick) { return; }
             const urlMap: Record<string, string> = {
-                "$(file-text) PDF to Word (DOCX)": "https://miconvert.com/en/pdf-to-docx",
-                "$(table) PDF to Excel (XLSX)": "https://miconvert.com/en/pdf-to-xlsx",
-                "$(file-media) PDF to JPG": "https://miconvert.com/en/pdf-to-jpg",
-                "$(output) Extract Text (TXT)": "https://miconvert.com/en/pdf-to-txt",
-                "$(fold-down) Compress PDF": "https://miconvert.com/en/compress-pdf",
+                "$(file-text) PDF to Word (DOCX)": "https://miconvert.com/en/pdf-to-docx?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(table) PDF to Excel (XLSX)": "https://miconvert.com/en/pdf-to-xlsx?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(file-media) PDF to JPG": "https://miconvert.com/en/pdf-to-jpg?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(output) Extract Text (TXT)": "https://miconvert.com/en/pdf-to-txt?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(fold-down) Compress PDF": "https://miconvert.com/en/compress-pdf?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
             };
-            const url = urlMap[pick.label] || "https://miconvert.com/en/pdf-tools";
+            const url = urlMap[pick.label] || "https://miconvert.com/en/pdf-tools?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer";
             vscode.env.openExternal(
                 vscode.Uri.parse(`${url}?utm_source=vscode&utm_medium=context_menu`)
             );
@@ -350,11 +350,11 @@ export function activate(context: vscode.ExtensionContext) {
             });
             if (!pick) { return; }
             const urlMap: Record<string, string> = {
-                "$(unmute) Convert to MP3": "https://miconvert.com/en/wav-to-mp3",
-                "$(file-binary) Convert to WAV": "https://miconvert.com/en/mp3-to-wav",
-                "$(file-code) Convert to FLAC": "https://miconvert.com/en/mp3-to-flac",
+                "$(unmute) Convert to MP3": "https://miconvert.com/en/wav-to-mp3?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(file-binary) Convert to WAV": "https://miconvert.com/en/mp3-to-wav?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(file-code) Convert to FLAC": "https://miconvert.com/en/mp3-to-flac?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
             };
-            const url = urlMap[pick.label] || "https://miconvert.com/en/audio-converters";
+            const url = urlMap[pick.label] || "https://miconvert.com/en/audio-converters?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer";
             vscode.env.openExternal(
                 vscode.Uri.parse(`${url}?utm_source=vscode&utm_medium=context_menu`)
             );
@@ -378,12 +378,12 @@ export function activate(context: vscode.ExtensionContext) {
             });
             if (!pick) { return; }
             const urlMap: Record<string, string> = {
-                "$(file-pdf) Convert to PDF": "https://miconvert.com/en/docx-to-pdf",
-                "$(table) XLSX to CSV": "https://miconvert.com/en/xlsx-to-csv",
-                "$(code) CSV to JSON": "https://miconvert.com/en/csv-to-json",
-                "$(file-text) All Document Tools": "https://miconvert.com/en/file-converters",
+                "$(file-pdf) Convert to PDF": "https://miconvert.com/en/docx-to-pdf?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(table) XLSX to CSV": "https://miconvert.com/en/xlsx-to-csv?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(code) CSV to JSON": "https://miconvert.com/en/csv-to-json?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
+                "$(file-text) All Document Tools": "https://miconvert.com/en/file-converters?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer",
             };
-            const url = urlMap[pick.label] || "https://miconvert.com/en/file-converters";
+            const url = urlMap[pick.label] || "https://miconvert.com/en/file-converters?utm_source=vscode&utm_medium=app&utm_campaign=vscode-image-optimizer";
             vscode.env.openExternal(
                 vscode.Uri.parse(`${url}?utm_source=vscode&utm_medium=context_menu`)
             );
